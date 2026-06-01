@@ -12,6 +12,10 @@
  *   TWILIO_AUTH_TOKEN    — Twilio Auth Token
  *   TWILIO_PHONE_NUMBER  — Twilio outbound phone number in E.164 format
  *   GOOGLE_CLIENT_ID     — iOS OAuth 2.0 client ID from Google Cloud Console
+ *   APPLE_CLIENT_ID      — iOS bundle ID used as Apple token audience
+ *   APPLE_TEAM_ID        — Apple Developer Team ID (needed if token revocation is added)
+ *   APPLE_KEY_ID         — Apple Sign-In key ID (needed if token revocation is added)
+ *   APPLE_PRIVATE_KEY    — Apple private key (needed if token revocation is added)
  *   PORT                 — (optional) defaults to 3000
  */
 
